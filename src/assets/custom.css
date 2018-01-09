@@ -1,0 +1,54 @@
+header, main, footer, .content {
+  padding-left: 20em;
+
+}
+
+@media only screen and (max-width : 992px) {
+  header, main, footer, .content {
+    padding-left: 0;
+  }
+}
+
+.side-nav li>a {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.iconlink {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.profileimage {
+  height: 11em;
+  width: 11em;
+}
+
+.naam {
+  font-size: xx-large;
+}
+
+.undertitle {
+  margin-top: 0;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.menubutton {
+  position: absolute;
+  color: white;
+}
+
+.parralaximage {
+  height: 21em;
+}
+
+.downarrow {
+  font-size: 3em;
+}
+
+.textpulse {
+  animation: opacityPulse 2s ease-out;
+  animation-iteration-count: infinite;
+  opacity: 1;
+}
+
+
+
